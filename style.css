@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+    
+    /* jarak antar baris */
+    line-height: 1.65; 
+    padding-bottom: 1000px;
+}
+
+/* latihan 2 */
+.container-dua {
+    max-width: 800px;
+    margin: 50px auto;
+
+}
+.layanan {
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+  
+
+.layanan.satu {background-color: rgb(110, 110, 245);}
+.layanan.dua {background-color: rgb(110, 245, 128);}
+.layanan.tiga {background-color: rgb(245, 110, 173);}
+
+@media( min-width: 600px ){
+    .layanan
+    {margin: 20px;}
+    
+    .container-dua {
+       display: flex;
+    }
+}
